@@ -5,27 +5,24 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: hackershelter.us
+google_analytics: hackershelter
+title: hackershelter.us
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Jon L. Myers' Blog
 
-description: Stylish Jekyll Theme
+description: Jon Myers' Everything Blog
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Jon Myers
+  email: jlm4508@rit.edu
+  github: JonLMyers
+  bio:  I often find myself lost deep in the woods of a variety of topics and need a place to keep track of it all.  This is that place.  Welcome to my blog!  Enjoy. <3
+  email_md5: 07b71e98178ebdf967fda8a70b311626
 
 rss_path: feed.xml
 categories_path: categories.html
